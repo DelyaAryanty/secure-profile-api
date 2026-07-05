@@ -1,35 +1,21 @@
 ## Cara Instalasi
 1. ekstrak file ZIP.
 2. Masuk ke folder project.
-```bash
-cd secure-profile-api
-```
 3. Install dependency.
-```bash
 npm install
-```
 4. Buat file `.env` pada root project dan isi dengan konfigurasi berikut.
-```env
 PORT=3000
 NODE_ENV=development
 JWT_SECRET=ganti_dengan_kunci_rahasia_panjang_dan_unik
 JWT_EXPIRES_IN=1h
 CLIENT_ORIGIN=http://localhost:5173
-```
-
 ## Cara Menjalankan Server
 Mode development:
-```bash
+1. Buka terminal dan jalankan dengan menuliskan perintah berikut pada terminal
 npm run dev
-```
-Mode production:
-```bash
-npm start
-```
-Server akan berjalan pada:
-```
+tunggu hingga muncul keterangan seperti dibawah ini
 http://localhost:3000
-```
+2. lakukan pengujian dengan berbagai skenario
 # Daftar Endpoint
 
 | Method | Endpoint | Deskripsi |
