@@ -4,10 +4,15 @@
 3. Install dependency.
 npm install
 4. Buat file `.env` pada root project dan isi dengan konfigurasi berikut.
+
 PORT=3000
+
 NODE_ENV=development
+
 JWT_SECRET=ganti_dengan_kunci_rahasia_panjang_dan_unik
+
 JWT_EXPIRES_IN=1h
+
 CLIENT_ORIGIN=http://localhost:5173
 ## Cara Menjalankan Server
 Mode development:
